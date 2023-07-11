@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ namespace ConAppMethod
         {
             Emp emp = new Emp();
             Console.WriteLine(emp.FullName("Sam","Dicosta"));
+            Console.WriteLine(emp.FullName(lname:"Sam",fname:"Dicosta"));
             Console.ReadKey();
         }
     }
